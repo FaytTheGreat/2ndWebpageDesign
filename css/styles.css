@@ -113,30 +113,6 @@ a:hover {
   color: #002B5B;
 }
 
-.prev_btn_div {
-  text-align: left;
-  margin: -3% 0 -6% 0;
-}
-
-.previous_btn {
-  color: #002B5B;
-  background-color: inherit;
-  border-style: none;
-  font-weight: 700;
-  font-size: 1.5rem;
-  margin-left: -10px;
-}
-
-.previous_btn:hover {
-  background-color: #002B5B;
-  color: #fff;
-}
-
-.fontawesome_prev {
-  color: #FF9F29;
-  padding-right: 7px;
-}
-
 /* || Home Page (Display Image and Introduction) */
 .img-div {
   margin: auto;
@@ -175,9 +151,16 @@ a:hover {
 }
 
 /* About Me Page (About Me) */
+.container_aboutme {
+  padding: 0;
+}
+
+.aboutme_row {
+  margin: 0;
+}
+
 .aboutme-div-pic {
   display: inline-block;
-  right: 10%;
 }
 
 .aboutme-pic {
@@ -285,6 +268,30 @@ a:hover {
 }
 
 /* Photography Page */
+.prev_btn_div {
+  text-align: left;
+  margin: -3% 0 -6% 0;
+}
+
+.previous_btn {
+  color: #002B5B;
+  background-color: inherit;
+  border-style: none;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-left: -10px;
+}
+
+.previous_btn:hover {
+  background-color: #002B5B;
+  color: #fff;
+}
+
+.fontawesome_prev {
+  color: #FF9F29;
+  padding-right: 7px;
+}
+
 .photo_holder_div {
   margin-top: -7%;
 }
