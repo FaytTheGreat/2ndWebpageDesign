@@ -58,7 +58,7 @@ a:hover {
 
 @media (max-width: 768px) {
   .masthead {
-    min-height: 40vh;
+    min-height: 30vh;
   }
 }
 
@@ -304,16 +304,18 @@ a:hover {
   font-size: 2rem;
   color: #002B5B;
   border-style: solid;
-  border-color: #FF9F29;"
+  border-color: #FF9F29;
+  "
+
 }
 
 .photo_album_select {
   color: #002B5B;
   font-size: 1.5rem;
-  margin-left: 15%;
 }
 
 .thumbnails {
+  display: block;
   border: 0;
   padding: .5%;
   background-color: grey;
